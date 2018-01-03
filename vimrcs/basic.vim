@@ -138,7 +138,7 @@ endif
 
 
 " Add a bit extra margin to the left
-set foldcolumn=1
+"set foldcolumn=1
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -157,8 +157,7 @@ try
 catch
 endtry
 
-set background=dark
-
+"set background=dark
 " Set extra options when running in GUI mode
 if has("gui_running")
     set guioptions-=T
